@@ -202,3 +202,12 @@ nav ul li a:hover {
 	color: white;
 	border-radius: 0 20px 0 40px;
 }
+
+.contact {
+	margin-top: 20%;
+	background-image: url(img/sleep.jpeg);
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	height: 500px;
+	width: 50%;
+}

@@ -109,7 +109,7 @@ $(() => {
 		$(".hide-ul").slideUp(100);
 	});
 
-	$home();
+	// $home();
 	$("#home").on("click", $home);
 	$("#project").on("click", $project);
 });
