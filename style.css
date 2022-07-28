@@ -1,0 +1,117 @@
+div {
+	border: 2px solid white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: rgba(19, 19, 19, 0.9);
+}
+.wrapper {
+	display: flex;
+	height: 7em;
+	border-radius: 0 20px 0 20px;
+}
+nav {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	z-index: 100;
+}
+
+nav.black {
+	background-color: rgba(255, 255, 255);
+	height: 120px;
+	padding: 10px 100px;
+}
+
+nav.black .logo img {
+	background-color: #f4f3f2;
+	border-radius: 0 20px;
+}
+nav .logo {
+	background-color: #f4f3f2;
+	height: 100px;
+	float: left;
+	transition: 0.5s;
+}
+
+.logo img {
+	height: 100px;
+	width: 150px;
+	opacity: 0.7;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 5px;
+}
+
+nav ul li a {
+	line-height: 80px;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 1s;
+	font-family: "Rampart One", cursive;
+}
+
+nav.black ul li a {
+	color: rgb(5, 4, 4);
+}
+
+nav.black ul li a:hover {
+	color: #fffffe;
+	background: rgb(9, 9, 9);
+	border-radius: 0 40px 0 20px;
+}
+nav ul li a:focus {
+	outline: none;
+}
+
+nav ul li a:hover {
+	color: #1d1d1c;
+	background: #fff;
+	border-radius: 0 40px 0 20px;
+}
+
+.picture img {
+	height: 350px;
+	-webkit-filter: drop-shadow(2px 2px 20px rgba(255, 249, 249, 0.5));
+	opacity: 0.8;
+	border-radius: 80px 180px 80px 0;
+}
+
+.main-container-text {
+	color: white;
+	justify-content: center;
+	margin: 100px;
+}
+
+.main-content {
+	margin-top: 20px;
+	display: flex;
+}
+
+.hide {
+	display: none;
+}
