@@ -7,7 +7,7 @@ $(() => {
 		}
 	});
 	const $home = () => { 
-		
+
 	}
 	const $clearDiv = () => {
 		$(".main-content").addClass("hide");
